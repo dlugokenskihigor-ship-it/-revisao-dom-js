@@ -37,3 +37,16 @@ btn3.addEventListener("click", () => {
     lista.appendChild(novoitem);
 });
  
+
+
+4//
+const btn4 = document.getElementById("btn4");
+const caixaa = document.getElementById("caixa");
+
+btn4.addEventListener("click", () => {
+    if (caixa.style.display === "none") {
+        caixa.style.display = "block";
+    } else {
+        caixa.style.display = "none";
+    }
+});
